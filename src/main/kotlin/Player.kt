@@ -1,12 +1,10 @@
-﻿class Player(val name:String, private val sign:String) 
+﻿class Player(private val name:String, private val sign:String) 
 {
-    fun GetSign():String
-    {
+    fun getSign():String {
         return sign
     }
     
-    fun GetName():String
-    {
+    fun getName():String {
         return name
     }
 }
